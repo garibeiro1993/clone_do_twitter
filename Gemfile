@@ -23,6 +23,10 @@ gem 'knock'
 gem 'active_model_serializers'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+#authorization
+gem 'cancancan'
+#pagination
+gem 'will_paginate', '~> 3.1.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
