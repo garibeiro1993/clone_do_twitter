@@ -27,9 +27,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'cancancan'
 #pagination
 gem 'will_paginate', '~> 3.1.0'
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
+#Use to protect API from external calls
+gem 'rack-attack'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
