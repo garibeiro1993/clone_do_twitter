@@ -31,6 +31,8 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'rack-cors'
 #Use to protect API from external calls
 gem 'rack-attack'
+#bcrypt
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
